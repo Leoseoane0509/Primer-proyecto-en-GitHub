@@ -1032,24 +1032,26 @@ div.stars {
   /* MAIN */
   /* SECCIÓN 1 */
   #main__welcome {
-    background-image: linear-gradient(
-        0deg,
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-      ),
-      url("media/bg_image.webp");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
+    background: #000000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #434343,
+      #000000
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #434343,
+      #000000
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100rem;
   }
   #main__welcome h2 {
     color: #000;
-    font-size: 3em;
-    letter-spacing: 1.5rem;
-    line-height: 3rem;
+    font-size: 5em;
+    letter-spacing: 3rem;
+    line-height: 6rem;
     text-shadow: 4px 6px 19px rgba(235, 235, 235, 1);
+    margin-bottom: 20rem;
   }
   #main__welcome button {
     font-size: 3em;
@@ -1062,14 +1064,14 @@ div.stars {
   }
   #main__welcome button:hover {
     cursor: pointer;
-    transform: translateY(-10px);
-    -webkit-transform: translateY(-10px);
-    -moz-transform: translateY(-10px);
-    -ms-transform: translateY(-10px);
-    -o-transform: translateY(-10px);
     box-shadow: 9px 7px 12px 5px rgba(32, 178, 170, 0.45);
     -webkit-box-shadow: 9px 7px 12px 5px rgba(32, 178, 170, 0.45);
     -moz-box-shadow: 9px 7px 12px 5px rgba(32, 178, 170, 0.45);
+    transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
   }
   /* SECCIÓN 2 */
   #main__me {
@@ -1178,6 +1180,19 @@ div.stars {
   }
   /* MAIN */
   /* SECCIÓN 1 */
+  #main2__sec1 {
+    background: #000000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #434343,
+      #000000
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #434343,
+      #000000
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
   #main2__sec1 img {
     display: block;
   }
@@ -1211,9 +1226,9 @@ div.stars {
       "skill4   skill5   skill6";
   }
   /* SECCIÓN 3 */
-  .certs2__links ul li a:hover {
-    color: lightseagreen;
+  .skill__link a:hover {
     cursor: pointer;
+    color: lightseagreen;
   }
   /* SERVICIOS */
   /* DESKTOP */
@@ -1529,7 +1544,7 @@ div.stars {
     -webkit-box-shadow: 1px 11px 12px 5px rgba(32, 178, 170, 1);
     -moz-box-shadow: 1px 11px 12px 5px rgba(32, 178, 170, 1);
     transform: translateY(-10px);
-    -webkit-transform: translateY(-8px);
+    -webkit-transform: translateY(-10px);
     -moz-transform: translateY(-10px);
     -ms-transform: translateY(-10px);
     -o-transform: translateY(-10px);
