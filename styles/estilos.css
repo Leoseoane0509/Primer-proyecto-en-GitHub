@@ -1267,14 +1267,13 @@ div.stars {
     /*Chrome10-25,Safari5.1-6*/
     background: linear-gradient(to right, #556270, #4ecdc4);
     /*W3C,IE10+/Edge,Firefox16+,Chrome26+,Opera12+,Safari7+*/
-    border-radius: 1rem;
-    -webkit-border-radius: ;
-    -moz-border-radius: ;
-    -ms-border-radius: ;
-    -o-border-radius: ;
     opacity: 1;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
   }
-
   .skill p {
     line-height: 3rem;
   }
@@ -1282,7 +1281,7 @@ div.stars {
     text-transform: uppercase;
   }
   .skill__link a:hover {
-    color: lightseagreen;
+    color: #000;
   }
   /* SECCIÓN 3 */
   #main2__certs {
@@ -1299,7 +1298,7 @@ div.stars {
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
   .certs2__links ul a:hover {
-    color: #000;
+    color: lightseagreen;
   }
 
   /* SERVICIOS */
